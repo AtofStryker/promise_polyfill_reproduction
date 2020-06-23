@@ -1,0 +1,24 @@
+{
+    "name": "core-js-reproduction",
+    "version": "1.0.0",
+    "description": "reproduction of polyfill injection being overidden multiple times",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack -p --mode production",
+        "dev": "webpack-dev-server -d --mode development --watch",
+        "host": "http-server ./dist"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/plugin-transform-runtime": "^7.10.3",
+        "@babel/preset-env": "^7.10.2",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "core-js": "^3.6.5",
+        "html-webpack-plugin": "^4.3.0",
+        "http-server": "^0.12.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
